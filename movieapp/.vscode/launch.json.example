@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "build",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define", "APIKEY=",
+                "--dart-define", "BASE_URL=https://api.themoviedb.org/4/"
+            ],
+        },
+    ]
+}
